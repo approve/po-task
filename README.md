@@ -3,7 +3,7 @@
 In this task we will build the the ❤️ functionality of [Approve.com](https://approve.com) - PO.
 
 ## Goal 🎯
-**You goal is to implement the defined requirements to the best of your abilities and gain as much points.**
+**You goal is to implement the defined requirements to the best of your abilities and <u>gain as much points as you can</u>.**
 
 ## 01 Background
 Approve is building the SaaS that allows everyone in the organization to have control and visibility over their purchases requests.
@@ -25,7 +25,7 @@ To create a new purchase the user should send the following fields:
 * Description - `string`.
 * Quantity - `number`.
 
-And Item contains:
+And `Item` contains:
 * Name : `string`.
 * Price: `number`.
 
@@ -44,7 +44,7 @@ Create an api for the following actions :
     * Quantity
     * Amount - The total amount of this purchase
 
-For example, I create a purchase to buy 2 apples and each apple costs 1$, so the total amount should be 2$.
+For example, I create a purchase to buy 2 apples and each apple costs $1, so the total amount should be $2.
 
 Refreshing the browser won’t clear the purchases table.
 
@@ -70,8 +70,8 @@ To run the project, you need to run server and client at the same time from 2 di
 ### Client
 Client code is located in `client` folder. It's based on [Create React App](https://reactjs.org/docs/create-a-new-react-app.html).
 
-See instructions [here](./client/README.md)
+See instructions [here](./client)
 
 ### Server
 Server is located in corresponding `server` folder.
-See instructions [here](./server/README.md)
+See instructions [here](./server)
